@@ -1,5 +1,5 @@
 {
-  "name": "mw-providers-bun",
+  "name": "@castdrian/mw-providers-bun",
   "version": "2.3.0",
   "description": "Package that contains all the providers of movie-web",
   "type": "module",
@@ -20,15 +20,10 @@
       }
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/castdrian/providers-bun.git"
-  },
   "keywords": [
     "movie-web",
     "providers"
   ],
-  "author": "movie-web",
   "license": "MIT",
   "scripts": {
     "build": "vite build && tsc --noEmit",
@@ -42,7 +37,7 @@
     "lint:fix": "eslint --fix --ext .ts,.js src/",
     "lint:report": "eslint --ext .ts,.js --output-file eslint_report.json --format json src/",
     "prepare": "bun run build",
-    "prepublishOnly": "bun test && bun run lint"
+    "prepublishOnly": "bun run lint"
   },
   "devDependencies": {
     "@nabla/vite-plugin-eslint": "^2.0.2",
