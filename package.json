@@ -1,5 +1,5 @@
 {
-  "name": "@castdrian/mw-providers-bun",
+  "name": "@movie-web/providers",
   "version": "2.3.0",
   "description": "Package that contains all the providers of movie-web",
   "type": "module",
